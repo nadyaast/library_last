@@ -1,0 +1,165 @@
+/* H E A D E R */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(205, 214, 219, 0.3);;
+    color: black;
+    padding: 20px 10px;
+}
+
+header a {
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    border-radius: 4px;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header img {
+    margin-left: 30px;
+}
+
+.wrap-logo {
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header a:hover {
+    background-color: rgba(205, 214, 219, 0.3);;
+    color: black;
+    border-radius: 10%;
+}
+
+header a.active {
+    background-color: rgba(205, 214, 219, 0.3);;
+    color: black;
+    border-radius: 10%;
+}
+
+/* M A I N */
+
+body  {
+    background-color: white;
+    margin: 0px;
+}
+
+.semilayer {
+    padding: 15px;
+    background: rgba(205, 214, 219, 0.3);
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    }
+
+.semilayer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Neucha;
+    font-size: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: Neucha;
+    font-weight: normal;
+}
+
+.book_row {
+    width: auto;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.book_photo {
+    width: 200px;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.book_info {
+    width: auto;
+    height: 250px;
+    margin-left: 225px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.book_info p {
+    margin-bottom: 9px; 
+    margin-top: 15px;
+}
+
+.book_row .book_info a {
+    transition: all .3s;
+    color:black;
+    text-decoration: none;
+    padding: 4px 12px;
+    flex-wrap: wrap;
+    background-color: rgba(205, 214, 219, 0.3);
+    border-radius: 10%;
+    position: relative;
+    top: 8px;
+}
+
+/* S E A R C H */
+
+.searching form {
+    width:400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.searching input{
+    padding:4px 10px;
+    border:1;
+    border-color: rgba(205, 214, 219, 0.3);
+    font-size:16px;
+}
+.searching .search {
+    width: 75%;
+}
+.searching .submit{
+    width: 70px;
+    background-color: rgba(205, 214, 219, 0.3);
+    border-radius: 10%;
+    border: 0;
+}
+
+.search_header h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 20px 20px;
+}
+
+
+/* F O R M */
+
+.reg_form a {
+    transition: all .3s;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    top: 3px;
+}
+
